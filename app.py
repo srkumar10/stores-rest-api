@@ -16,9 +16,9 @@ app.secret_key = 'ramesh'
 api = Api(app)
 
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
+# @app.before_first_request
+# def create_tables():
+#     db.create_all()
 
 
 # /login - change the authentical url to login instead of auth
